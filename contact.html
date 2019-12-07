@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Basic Portfolio Contact Page</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
+</head>
+
+<body class="background">
+        <header id="masthead">
+            <div class ="container"></div>
+            <section class="header-bar"></section>
+                <h1 class="container-heading">Ian Hooper</h1>
+                <nav class="container">
+                    <h2 class="navigation">
+                        <a class="navigation" href="index.html">About Me</a>
+                        <a> | </a>
+                        <a class="navigation" href="portfolio.html">Porfolio</a>
+                        <a> | </a>
+                        <a class="navigation"href="contact.html">Contact</a>
+                    </h2>
+                </nav>
+            </div>
+        </header>
+
+            <div class="main-section">
+                <section>
+                    <section class="titles">Contact</section>
+                    <!-- Underline -->
+                    <hr/>
+                    <!-- Form Input for Name, Email, and Message -->
+                    <form>
+                        Name<br>
+                        <input type="text" name="fullname" value="">
+                        <br>
+                        Email<br>
+                        <input type="text" name="email" value="">
+                        <br>
+                        Message<br>
+                        <textarea type="textarea" name="textarea" value=""></textarea>
+                        <br>
+                        <!-- Submit Button at bottom of Form -->
+                        <input type="submit" name="submit" onclick="alert('Thank you!')" value="Submit">
+                    </form>
+                </section>
+        
+                <!-- Side Bar Section -->
+                <aside class="side-bar">
+                    <h3 class="titles">Connect with Me</h3>
+                    <!-- Underline -->
+                    <hr/>
+        
+                    <!-- Images and Links for Social Media -->
+                    <section class="link-images">
+                        <a href="https://github.com/Hoop714">
+                            <img class="Connect" src="./assets/images/githublogo.png" alt="GitHub-Mark"/>
+                        </a>
+                        <a href="https://www.linkedin.com/in/ian-hooper-4571137/">
+                            <img class="Connect" src="./assets/images/linkedinlogo.png" alt="LinkedIn-logo"/>
+                        </a>
+                        <a href="https://stackoverflow.com/users/12278518/hoop714">
+                            <img height="20%" width="20%" class="Connect" src="./assets/images/stackoverflowlogo.png" alt="Stack-logo"/>
+                       </a>
+                    </section>
+                </aside>
+            </div>
+            <footer class="footer">
+                <h4>Copyright &copy; 2019</h4>
+            </footer>
+
+</body>
+</html>

@@ -1,0 +1,336 @@
+/* Stylesheet for index, contact, and portfolio pages*/
+body {
+	background-color: grey;
+}
+
+.header-bar {
+	background-color: #777777;
+	width: 100%;
+	height: 86px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.container {
+	width: 960px;
+	margin: auto;
+}
+
+.container-heading {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 26px;
+	font-weight: bold;
+	background-color: #4aaaa5;
+	padding: 28px 4px 28px 4px;
+	width: 300px;
+	margin: auto;
+	text-align: center;
+	color: #ffffff;
+	position: relative;
+}
+
+.navigation {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 16px;
+	background-color: #ffffff
+	width: 300px;
+	padding: 33px 10px 33px 10px;
+	margin: auto;
+	text-align: center;
+	color: #777777;	
+}
+
+.main-section {
+	background-color: #ffffff;
+	width: 650px;
+}
+
+.Background-Picture {
+	width: 100%;
+	z-index: 1;
+}
+
+.titles {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 22px;
+	padding: 25px;
+	padding-bottom: 0;
+	color: #4aaaa5;
+	font-weight: bold;
+}
+
+.Self-Picture {
+	width: 30%;
+	z-index: 2;
+	float: left;
+	margin-left: 25px;
+	margin-right: 10px;
+}
+
+.paragraph {
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 16px;
+	text-align: justify;
+	text-justify: inter-word;
+	padding-left: 20px;
+	padding-right: 20px;
+	line-height: 18px;
+}
+
+.side-bar { clear:both;
+	width: 270px;
+	background-color: #ffffff;
+	margin: auto;
+}
+
+.link-images {
+	width: 93%;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+/* Underline for Titles*/
+hr {
+	display: block;
+	border: 0;
+	border-top: 2px solid #999999;
+	width: 93%;	
+	padding: 0;
+	margin: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+/* Social Media*/
+.Connect {
+	width: 50px;
+	height: 50px;
+	margin: auto;
+}
+
+.background {
+	background-image: url("../images/intersection.png");
+	margin: 0 auto;
+	background-color: #ffffff;
+}
+
+section {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h4 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+.port1 { float:left;
+    background: url(http://lorempixel.com/400/200/sports/1);
+    background-size: cover;
+    position: relative;
+    width: 250px;
+    height: 200px;
+    margin-top: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    margin-left: 30px;
+    overflow: hidden;
+}
+
+.port2 { float:left;
+    background: url(http://lorempixel.com/g/400/200);
+    background-size: cover;
+    position: relative;
+    width: 250px;
+    height: 200px;
+    margin-top: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    margin-left: 30px;
+    overflow: hidden;
+}
+
+.port3 { float:left;
+    background: url(http://lorempixel.com/400/200/sports);
+    background-size: cover;
+    position: relative;
+    width: 250px;
+    height: 200px;
+    margin-top: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    margin-left: 30px;
+    overflow: hidden;
+}
+
+.port4 { float:left;
+    background: url(http://lorempixel.com/400/200/sports/Dummy-Text);
+    background-size: cover;
+    position: relative;
+    width: 250px;
+    height: 200px;
+    margin-top: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    margin-left: 30px;
+    overflow:hidden;
+}
+
+.port5 { float:left;
+    background: url(http://lorempixel.com/400/200);
+    background-size: cover;
+    position: relative;
+    width: 250px;
+    height: 200px;
+    margin-top: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    margin-left: 30px;
+    overflow: hidden;
+}
+
+
+/* Footer*/
+.footer-zone {
+	background-color: #666666;
+	width: 100%;
+	height: 32px;
+	opacity: 0;
+}
+
+.footer {
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	background-color: #666666;
+	width: 100%;
+	font-size: 12px;
+	text-align: center;
+	padding: 10px 0px;
+	color: #ffffff;
+	margin-top: 30px;
+	/* Teal Border Above Footer*/
+	border-top: 6px solid #4aaaa5;
+}
+
+div {
+	background-color: #ffffff;
+	border-color: #dddddd;
+}
+
+form {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	margin-left: 25px;
+	color: #777777;
+	font-size: 18px;
+	line-height: 20px;
+}
+
+input[type=text], select {
+	width: 600px;
+	display: inline-block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: 1px solid #777777;
+	border-radius: 4px;
+	padding: 6px 12px;
+	box-sizing: border-box;
+	color: #777777;
+}
+
+textarea[type=textarea], select {
+	width: 600px;
+	display: inline-block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: 1px solid #777777;
+	border-radius: 4px;
+	padding: 6px 12px;
+	min-height: 100px;
+	box-sizing: border-box;
+	color: #777777;
+}
+
+input[type=submit] {
+	margin-top: 10px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	padding: 12px 48px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 20px;
+	text-align: middle;
+}
+.text { position: absolute;
+	bottom: 20px;
+	left: 0;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	padding-bottom: 30px;
+	width: 100%;
+	height: 20px;
+	text-align: center;
+	font: 16px;
+}
+@media (max-width: 980px) {
+	.container {
+	  width: 100%;
+	}
+	.main-section {
+	  width: 70%;
+	}
+	.side-bar {
+	  width: 30%;
+	}
+	.header-bar {
+		width: 100%;
+	  }
+	  .header-bar {
+		width: 100%;
+	  }
+	.container-header {
+		width: 100%;
+	  }
+  }
+  @media (max-width: 768px) {
+	.container {
+	  width: 100%;
+	}
+	.main-section {
+	  width: 100%;
+	}
+	.side-bar {
+	  width: 100%;
+	}
+	.header-bar {
+		width: 100%;
+	  }
+	.container-header {
+		width: 100%;
+	  }
+  }
+  
+  @media (max-width: 640px) {
+	#masthead {
+	  position: static;
+	}
+	.container {
+	 width: 100%;
+	}
+	.main-section {
+	  width: 100%;
+	}
+	.side-bar {
+	  width: 100%;
+	}
+	.header-bar {
+		width: 100%;
+	  }
+	.container-header {
+		width: 100%;
+	  }
+  }
